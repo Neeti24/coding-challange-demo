@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    color : #333;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+/* modal */
+  .ReactModalPortal>div {
+    opacity: 0;
+  }
+  
+  .ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity 200ms ease-in-out;
+  }
+  
+  .ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+  
+  .ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+  
+  .modal {
+    background: #464b5e;
+    color: white;
+    max-width: 30rem;
+    outline: none;
+    padding: 3.2rem;
+    text-align: center;
+  }
+  
+  .modal__title {
+    margin: 0 0 1.6rem 0;
+  }
+  
+  .modal__body {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0 0 3.2rem 0;
+  }
+
+img {
+    width: 200px;
+    width: 200px;
+}
+
+/* header */
+
+.header {
+    background: navy;
+    color: white;
+    margin-bottom: 1.6rem;
+    padding: 1.6rem 3.4rem;
+  }
+
+  @media (min-width: 45rem) {
+    .header {
+      margin-bottom: 4.8rem;
+    }
+  }
+
+  /* button */
+  .button {
+    background: navy;
+    border: none;
+    border-bottom: .3rem solid darken(navy, 10%);
+    color: white;
+    font-weight: 500;
+    padding: 1.2rem;
+  }
+
+  .checkOut {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .navy {
+    background-color: navy;
+  }
+
+  /* body */
+
+  .container {
+    height: 60vh;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+  }
+
+  /* footer */
+
+  .footer {
+    background: wheat;
+    color: black;
+    margin-bottom: 1.6rem;
+    padding: 1.6rem 3.4rem;
+    height: 30vh;
+    text-align: right
+  }
+
+  .listContainer {
+    margin: 28px 40px;
+      display: inline-block;
+      @media (min-width: 45rem) {
+        display: black;
+    }
+  }
+
+  .userInfo {
+    display: inline-block;
+  }
+
+  
